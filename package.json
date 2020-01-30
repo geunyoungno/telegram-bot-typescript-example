@@ -1,0 +1,24 @@
+{
+  "name": "telegram-bot-typescript-example",
+  "version": "1.0.0",
+  "description": "node 와 typescript 기반의 telegram bot api example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geunyoungno/telegram-bot-typescript-example.git"
+  },
+  "author": "GeunyoungNo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geunyoungno/telegram-bot-typescript-example/issues"
+  },
+  "homepage": "https://github.com/geunyoungno/telegram-bot-typescript-example#readme",
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.40.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
