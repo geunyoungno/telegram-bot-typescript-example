@@ -1,7 +1,6 @@
 import TelegramBot from "node-telegram-bot-api"
+import {token} from "./telegramCofnig"
 
-// @BotFather 가 준 Telegram token 입력
-const token: string = "telegram bot token";
 // TelegramBot의 uses 'polling' to fetch new updates
 const options: TelegramBot.ConstructorOptions = {polling: true};
 

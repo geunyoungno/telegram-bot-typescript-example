@@ -11,6 +11,10 @@ npm install --save node-telegram-bot-api
 
 ## bot 에 작성한 message 에 반응해 응답
 
+```
+DEBUG=node-telegram-bot-api ts-node simple.ts
+```
+
 - onText method 의 match parameter 의 null 처리 
 > RegExpExecArray | null 타입
 - `node-telegram-bot-api` import 주의 사항
@@ -24,6 +28,11 @@ npm install --save node-telegram-bot-api
 
 - Long polling 사용하여 message 에 반응함
 
+## .env 추가하여 환경 변수 분리
+
 ```
-DEBUG=node-telegram-bot-api ts-node simple.ts
+npm install dotenv
 ```
+
+- `.env.example` 를 `.env` 로 rename
+- dotenv.config() 실행 시점에 `process.env` 에 `.env`의 환경 변수 들이 추가됨
