@@ -18,11 +18,15 @@
   "homepage": "https://github.com/geunyoungno/telegram-bot-typescript-example#readme",
   "devDependencies": {
     "@types/node-telegram-bot-api": "^0.40.2",
+    "@types/request": "^2.48.4",
     "ts-node": "^8.6.2",
     "typescript": "^3.7.5"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "node-telegram-bot-api": "^0.40.0"
+    "node-telegram-bot-api": "^0.40.0",
+    "tslint": "^6.0.0",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-config-prettier": "^1.18.0"
   }
 }
