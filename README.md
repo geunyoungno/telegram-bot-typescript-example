@@ -74,3 +74,9 @@ npm i tslint tslint-config-airbnb tslint-config-prettier
         "tslint-config-prettier"
     ]
 ```
+
+## request package 명시적으로 dependency 추가
+```
+npm i request request-promise
+npm i -D @types/request @types/request-promise
+```

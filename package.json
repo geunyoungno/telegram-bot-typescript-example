@@ -17,14 +17,19 @@
   },
   "homepage": "https://github.com/geunyoungno/telegram-bot-typescript-example#readme",
   "devDependencies": {
+    "@types/luxon": "^1.21.0",
     "@types/node-telegram-bot-api": "^0.40.2",
     "@types/request": "^2.48.4",
+    "@types/request-promise": "^4.1.45",
     "ts-node": "^8.6.2",
     "typescript": "^3.7.5"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
+    "luxon": "^1.22.0",
     "node-telegram-bot-api": "^0.40.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
     "tslint": "^6.0.0",
     "tslint-config-airbnb": "^5.11.2",
     "tslint-config-prettier": "^1.18.0"
